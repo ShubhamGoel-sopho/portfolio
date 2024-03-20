@@ -1,22 +1,6 @@
 {
     "projects" : [
         {
-            "image" : "images/projects/portfolio-poster.png",
-            "title": "Dev Portfolio",
-            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/shubhamgoel-sopho/dev-portfolio"
-                }
-            ],
-            "tags" : [
-                "React",
-                "Portfolio",
-                "JavaScript"
-            ]
-        },
-        {
             "image" : "images/projects/slider_screenshot.png",
             "title": "React Native Slider",
             "bodyText": "- Contributed to react-native-slider open source project. Added functionality to have milestone icons on slider",
