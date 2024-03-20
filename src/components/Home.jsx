@@ -10,6 +10,7 @@ import FallbackSpinner from './FallbackSpinner';
 const styles = {
   nameStyle: {
     fontSize: '5em',
+    marginTop: 40,
   },
   inlineChild: {
     display: 'inline-block',
