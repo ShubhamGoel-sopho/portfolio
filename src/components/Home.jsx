@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Typewriter from 'typewriter-effect';
+import ReactMarkdown from 'react-markdown';
 import Fade from 'react-reveal';
+import { Col } from 'react-bootstrap';
 import endpoints from '../constants/endpoints';
 import Social from './Social';
 import FallbackSpinner from './FallbackSpinner';
@@ -19,10 +21,24 @@ const styles = {
     justifyContent: 'center',
     alignItems: 'center',
   },
+  introTextContainer: {
+    margin: 20,
+    flexDirection: 'column',
+    whiteSpace: 'pre-wrap',
+    textAlign: 'center',
+    fontSize: '1.2em',
+    fontWeight: 500,
+  },
 };
 
 function Home() {
   const [data, setData] = useState(null);
+
+  const parseIntro = (text) => (
+    <ReactMarkdown
+      children={text}
+    />
+  );
 
   useEffect(() => {
     fetch(endpoints.home, {
@@ -48,6 +64,9 @@ function Home() {
           />
         </div>
         <Social />
+        <Col style={styles.introTextContainer}>
+          {parseIntro(data.about)}
+        </Col>
       </div>
     </Fade>
   ) : <FallbackSpinner />;
