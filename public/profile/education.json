@@ -1,19 +1,16 @@
 {
     "education":[
         {
-            "title": "Jun 20XX - Jun 20YY",
-            "cardTitle": "B.Tech, Computer Science",
-            "cardSubtitle":"XYZ University, City",
-            "cardDetailedText": "CGPA - 9.5",
-            "icon" : {
-                "src": "images/education/lorem-ipsum.png"
-            }
+            "title": "June 2015 - May 2019",
+            "cardTitle": "B.Tech, Mathematics & Computing Engineering",
+            "cardSubtitle":"Delhi Technological University, Delhi",
+            "cardDetailedText": "GPA - 8.3"
         },
         {
-            "title": "Apr 20XX",
+            "title": "May 2015",
             "cardTitle": "High School",
-            "cardSubtitle":"ABC School, City",
-            "cardDetailedText": "Marks - 95%"
+            "cardSubtitle":"R.P.V.V RajNiwas Marg, Delhi",
+            "cardDetailedText": "Marks - 96.2%"
         }
     ]
 }

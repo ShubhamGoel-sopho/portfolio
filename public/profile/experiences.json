@@ -1,33 +1,47 @@
 {
     "experiences": [
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
+            "title": "UI Engineer",
+            "subtitle": "Flipkart",
             "workType": "Full-time",
             "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
+                "As a UI Engineer in the App Experience team at Flipkart, my main role involves developing the UI for the customer-facing Flipkart App on Android/iOS/M-Site/Desktop.",
+                "Successfully delivered significant projects like Coupon Rain, Scratch cards, Fast Fashion (Spoyl) and many more.",
+                "Optimized test suite runtimes in jest and enhancing UI frameworks & libraries to boost developers' productivity.",
+                "Mentored a pool of junior developers and actively contributing as a member of the Hiring Team."
             ],
-            "dateText": "06/20XX – Present"
+            "dateText": "04/2022 - Present"
         },
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
+            "title": "Senior Analyst",
+            "subtitle": "NatWest Group",
+            "workType": "Full-time",
+            "workDescription": [
+                "Served as a Full Stack Engineer in the BPM team, streamlining customers' business journeys by utilizing camunda APIs within the Java ecosystem.",
+                "Created User Interfaces for various internal web applications of the bank using ReactJS, Java, MongoDB, and SQL.",
+                "Refactored, modularized, and enhanced outdated code bases to align with current development practices, leading to cost savings and enhanced functionality."
+            ],
+            "dateText": "07/2019 - 03/2022"
+        },
+        {
+            "title": "Summer Intern",
+            "subtitle": "Royal Bank of Scotland",
             "workType": "Internship",
             "workDescription": [
-                "Worked on abc."
+                "Collaborated with an AGILE team to implement a comprehensive change request for the bank's internal application.",
+                "Created an automation suite using C# and Selenium.",
+                "Awarded as one of the technology academy's \"Best Interns of the Year\"."
             ],
-            "dateText": "01/20XX – 05/20XX"
+            "dateText": "06/2018 - 07/2018"
         },
         {
-            "title": "App Developer",
-            "subtitle": "ABC Pvt Ltd",
-            "workType": "Freelance",
+            "title": "Summer Intern",
+            "subtitle": "IndiaGoSolar",
+            "workType": "Internship",
             "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
+                "Created a comprehensive cross-platform e-commerce mobile app from the ground up with PhoneGap technology."
             ],
-            "dateText": "09/20XX – 01/20YY"
+            "dateText": "06/2017 - 07/2017"
         }
     ]
 }
